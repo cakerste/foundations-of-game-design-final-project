@@ -18,12 +18,6 @@ public class EnemyScript : MonoBehaviour
         p = player.GetComponent<PlayerController>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void updateHealth(int h)
     {
         if (p.isDefending) {
